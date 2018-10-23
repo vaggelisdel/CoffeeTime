@@ -1,0 +1,132 @@
+html, body{
+	background: url(../images/bg_login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form {
+  background: rgba(19, 35, 47, 0.9);
+  max-width: 600px;
+  padding: 25px;
+  margin: 10em auto 2em auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #a0b3b0;
+  font-size: 20px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  text-shadow: 1px 1px 4px black;
+}
+.tab-group li a:hover {
+  background: #e0ca00;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: #f5e132;
+  color: #ffffff;
+}
+
+.tab-content > div:last-child {
+  display: none;
+}
+input, textarea {
+    font-size: 17px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+    border-color: #FFEB3B;
+}
+.field-wrap {
+    position: relative;
+    margin-bottom: 30px;
+}
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+}
+.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #f5e132;
+    color: #ffffff;
+    text-shadow: 1px 1px 4px black;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: #e0ca00;
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+
+.business-login{
+	margin: 25px 0 0 0;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 40px;
+}
+p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0px 0px 20px 0px;
+}
+a {
+  color: #ffca00;
+  -webkit-transition: 0.5s, ease;
+  -o-transition: 0.5s, ease;
+  transition: 0.5s, ease;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #ffcf16;
+}
