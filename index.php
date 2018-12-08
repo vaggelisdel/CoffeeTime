@@ -1,7 +1,7 @@
 <?php
 /* Displays user information and some useful messages */
 require_once 'connection.php';
-	
+	//adasdad
 session_name("session3");
 session_start();
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
